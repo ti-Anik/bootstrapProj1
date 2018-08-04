@@ -1,0 +1,232 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif !important;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.row {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+.logo {
+    float: left;
+}
+
+.logo > img {
+    width: 150px;
+}
+
+.nav-bar {
+    float: right;
+    margin-top: 30px;
+}
+
+.nav-bar ul {}
+
+.nav-bar > ul > li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-bar > ul > .active > a {
+    color: red;
+}
+
+.nav-bar > ul > li > a {
+    text-decoration: none;
+    margin-right: 25px;
+    color: black;
+}
+
+.nav-bar > ul > li > a:hover {
+    color: red;
+}
+
+.section_one {
+    background-image: url('../images/img2.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    height: 70vh;
+    color: white;
+    position: relative;
+}
+
+.section_one::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.7;
+
+}
+
+.banner-text {
+    z-index: 1;
+}
+
+.fa-facebook-f {
+    font-size: 25px;
+    color: #3B5998;
+    border-radius: 50%;
+    border: 2px solid;
+    /* width: 40px; */
+    /* height: 40px; */
+    padding: 5px 12px 5px 10px;
+}
+
+.fa-facebook-f:hover {
+    background-color: #3B5998;
+    color: white;
+    border-color: #3B5998;
+}
+
+header {
+    padding: 35px 0px;
+    border-bottom: 5px solid #ebebeb;
+}
+
+.carousel-item {
+    height: 600px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+
+
+.carousel-content {
+    position: absolute;
+}
+
+.carousel-content h1 {
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+}
+
+.carousel-content {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.carousel-content h2 {
+    font-size: 38px;
+    font-weight: 900;
+    color: white;
+}
+
+.carousel-content h3 {
+    font-family: "Roboto";
+    color: rgb(255, 253, 199);
+    text-transform: uppercase;
+    line-height: 1.037;
+    text-align: center;
+    background: #782a32;
+    width: 500px;
+    padding: 20px 28px;
+    font-size: 23px;
+}
+
+
+.carousel-indicators {
+    left: auto !important;
+    right: auto !Important;
+    width: 400px;
+    cursor: pointer;
+}
+
+.carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background: transparent !important;
+    border: 1px solid white;
+}
+
+.carousel-indicators .active {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background: white !important;
+    border: 1px solid white;
+}
+
+.welcome-area {
+    text-align: center;
+    padding: 80px;
+    background-image: url(../images/welcomeAreaBg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container > h2 {
+    font-family: Roboto;
+    font-weight: 800;
+    font-size:37px;
+    letter-spacing: 3px;
+}
+
+.container >p {
+    font-family: Roboto;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+    font-size: 20pt;
+}
+
+.service-area{
+    text-align: center;
+    padding: 80px;
+    
+}
+
+.service-area > h2{
+    font-family: Roboto;
+    font-weight: 800;
+    font-size: 37px;
+    letter-spacing: 3px;
+}
+p{
+    font-family: Roboto;
+    font-weight: 300;
+   
+}
+
+.service-area > p {
+    font-family: Roboto;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+    font-size: 21pt;
+}
+
+.services{
+    padding-top: 35px;
+}
+
+.col-md-3 > img{
+    padding: 36px;
+}
